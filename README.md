@@ -37,3 +37,6 @@ If you find CBR useful in your research, please consider citing:
 2. Launch MATLAB and run the evaluation code to obtain mAP and precition@k.
 
        >>run_cifar10
+
+## Contact
+Please feel free to contact Huei-Fang Yang (hfyang@citi.sinica.edu.tw), Kevin Lin (kevinlin311.tw@iis.sinica.edu.tw), or Chu-Song Chen (song@iis.sinica.edu.tw) if you had any questions.
