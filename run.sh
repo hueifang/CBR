@@ -33,7 +33,7 @@ while [ "$i" -le "$NUM_CODE_UPDATES" ]; do
   j=$(( i - 1 ))
 
   INLOGFILE="./experiments/cifar-10/round_""$j""/models/log.txt"
-  WEIGHTS_IN=$(awk '/Snapshotting to binary proto file/{f=$NF} END{print f}' $INLOGFILE)
+  WEIGHTS_IN=$(awk '/Snapshotting to/{f=$NF} END{print f}' $INLOGFILE)
   
   # create a folder for outputting the models and config files for the current round
   MODEL_DIR="./experiments/cifar-10/round_""$i""/models"
